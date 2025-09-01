@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+wheels/
+share/python-wheels/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test & coverage
+.pytest_cache/
+.cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.hypothesis/
+
+# Type checkers & linters
+.mypy_cache/
+.pytype/
+.pylint.d/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Env files (keep example)
+.env
+
+# Logs (keep folder if needed with .gitkeep)
+logs/*.log
+logs/*.db
+logs/*.sqlite
+logs/*.sqlite3
+
+# Celery / Flower runtime files
+celerybeat-schedule
+celerybeat-schedule.*
+celerybeat.pid
+celery*.pid
+celery*.log
+
+# SQLite and misc local DBs
+*.sqlite3
+*.sqlite
+
+# Redis dump
+dump.rdb
+
+# Poetry / pip artifacts
+pip-wheel-metadata/
+
+# Local dumps/backups
+*.bak
+*.tmp
+*.swp
+
+node_modules/
